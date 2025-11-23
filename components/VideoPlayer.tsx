@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { Anime, Episode } from '../types';
 import { Play, Pause, Volume2, VolumeX, Settings, Maximize, ArrowLeft, SkipForward, MessageSquare, Server, Loader2, Check } from 'lucide-react';

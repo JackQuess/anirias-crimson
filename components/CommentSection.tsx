@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, EyeOff, Eye, Flame, Heart, Sword, MoreHorizontal, Flag, Lock } from 'lucide-react';

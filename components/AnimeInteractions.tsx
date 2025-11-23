@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, useTransition } from 'react';
 import { Plus, Check, Heart, Share2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';

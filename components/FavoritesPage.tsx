@@ -1,3 +1,4 @@
+"use client";
 import React, { useMemo } from 'react';
 import { usePlayerStore } from '../store/usePlayerStore';
 import { Anime, ViewState, WatchlistItem } from '../types';

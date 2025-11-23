@@ -1,3 +1,4 @@
+"use client";
 import React, { useMemo } from 'react';
 // FIX: Imported WatchProgress to correctly type the history items.
 import { usePlayerStore, WatchProgress } from '../store/usePlayerStore';

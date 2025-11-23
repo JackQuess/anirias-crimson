@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from 'react';
 import { Anime } from '../types';
 import AnimeCard from './AnimeCard';

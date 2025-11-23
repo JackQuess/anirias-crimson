@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { syncService } from '../../../services/syncService';
+import { syncService } from '../../services/syncService';
 import { Anime } from '../../../types';
 
 // --- MOCK DATABASE FETCHER ---

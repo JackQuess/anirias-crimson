@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useMemo, useEffect } from 'react';
 import { Episode, Anime } from '../types';
 import { Play, Layers } from 'lucide-react';

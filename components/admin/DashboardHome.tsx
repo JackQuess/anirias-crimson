@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { Users, Play, Film, Server, ArrowUp, ArrowDown } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
