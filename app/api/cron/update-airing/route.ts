@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { syncService } from '@/services/syncService';
+import { episodeSyncService } from '@/services/episode-sync';
 import { Anime } from '@/types';
 
-// MOCK DATABASE FETCHER
+// In a real app, this would be: await db.anime.findMany({ where: { status: 'Airing' } });
 const getAiringAnimeFromDB_MOCK = async (): Promise<Anime[]> => {
   return [
     {
@@ -36,11 +36,9 @@ export async function GET(req: NextRequest) {
     console.log(`[CRON] Starting update check for ${airingAnimeList.length} series...`);
 
     for (const anime of airingAnimeList) {
-      // NOTE: The user requested a change to syncEpisodes, but the existing code uses syncService.syncEpisodes
-      // To match the existing code's logic, we use the syncService instance.
-      const result = await syncService.syncEpisodes(anime.title);
+      const result = await episodeSyncService.syncEpisodes(anime.id, anime.title);
 
-      if (result.success && result.episodes.length > 0) {
+      if (result.success && result.episodes && result.episodes.length > 0) {
         const remoteCount = result.episodes.length;
         const localCount = anime.episodes;
         if (remoteCount > localCount) {
