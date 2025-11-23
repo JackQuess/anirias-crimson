@@ -1,9 +1,11 @@
 "use client";
-import React from 'react';
-import { Users, Play, Film, Server, ArrowUp, ArrowDown } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Users, Play, Film, Server, ArrowUp, ArrowDown, Loader2 } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { useTranslation } from '../../providers/I18nProvider';
+import { getDashboardStats } from '@/app/actions/anime'; // Server Action importu
 
+// Grafik verisi şimdilik simülasyon olarak kalabilir (Gerçek analitik verisi için Vercel Analytics gerekir)
 const DATA = Array.from({ length: 30 }).map((_, i) => ({
   name: `Jun ${i + 1}`,
   views: Math.floor(Math.random() * 5000) + 3000,
@@ -12,20 +14,53 @@ const DATA = Array.from({ length: 30 }).map((_, i) => ({
 
 const DashboardHome: React.FC = () => {
   const { t } = useTranslation();
+  
+  // State yönetimi
+  const [stats, setStats] = useState({
+    userCount: 0,
+    animeCount: 0,
+    episodeCount: 0,
+    totalViews: 0
+  });
+  const [loading, setLoading] = useState(true);
+
+  // Verileri çekme
+  useEffect(() => {
+    async function loadStats() {
+      try {
+        const data = await getDashboardStats();
+        setStats(data);
+      } catch (error) {
+        console.error("Failed to load dashboard stats", error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadStats();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex h-[50vh] w-full items-center justify-center">
+        <Loader2 className="h-8 w-8 animate-spin text-red-600" />
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-8">
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <StatCard 
           title={t('Admin.totalUsers')} 
-          value="12,450" 
+          value={stats.userCount.toLocaleString()} 
           change="+12%" 
           icon={Users} 
           trend="up"
         />
         <StatCard 
           title={t('Admin.activeStreams')} 
-          value="843" 
+          value={stats.totalViews.toLocaleString()} // Toplam izlenme veya aktif session
           change="+5%" 
           icon={Play} 
           trend="up"
@@ -33,17 +68,17 @@ const DashboardHome: React.FC = () => {
         />
         <StatCard 
           title={t('Admin.totalAnime')} 
-          value="3,240" 
-          change="+18" 
+          value={stats.animeCount.toLocaleString()} 
+          change={`+${stats.episodeCount} Eps`} 
           icon={Film} 
           trend="neutral"
         />
         <StatCard 
           title={t('Admin.serverLoad')} 
-          value="42%" 
-          change="-2%" 
+          value="Operational" 
+          change="Stable" 
           icon={Server} 
-          trend="down"
+          trend="neutral"
         />
       </div>
 

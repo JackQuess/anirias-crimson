@@ -9,11 +9,10 @@ const nextConfig = {
     ],
   },
   typescript: {
-    ignoreBuildErrors: true, // Build sırasında TS hatalarını yoksay (Hızlı deploy için)
+    // Build sırasında TypeScript hatalarını yoksay (Hızlı deploy için)
+    ignoreBuildErrors: true, 
   },
-  eslint: {
-    ignoreDuringBuilds: true, // Build sırasında ESLint hatalarını yoksay
-  },
+  // ESLint bloğu kaldırıldı - Next.js 15+ sürümlerinde burada desteklenmez.
 };
 
 export default nextConfig;
