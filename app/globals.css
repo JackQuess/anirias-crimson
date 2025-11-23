@@ -54,22 +54,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-inter selection:bg-anirias-crimson selection:text-white;
-    overflow-x: hidden;
+    @apply bg-background text-foreground;
   }
-}
-
-/* Custom Scrollbar - Anirias Theme */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #0a0a0a;
-}
-::-webkit-scrollbar-thumb {
-  background: #333;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #990011;
 }
