@@ -1,0 +1,209 @@
+{
+  "Navbar": {
+    "home": "Ana Sayfa",
+    "catalog": "Katalog",
+    "schedule": "Takvim",
+    "myList": "Listem"
+  },
+  "Hero": {
+    "watch": "Hemen İzle",
+    "featured": "ÖNE ÇIKAN",
+    "upNext": "Sıradaki"
+  },
+  "RecentEpisodes": {
+    "title": "YENİ GÜNCELLENENLER"
+  },
+  "TrendingSidebar": {
+    "title": "TOP 10 İZLENEN",
+    "weekly": "Haftalık",
+    "leaderboard": "TÜM LİSTEYİ GÖR"
+  },
+  "Catalog": {
+    "title": "GRIMOIRE KATALOG",
+    "searchPlaceholder": "Başlığa göre ara...",
+    "genre": "Tür",
+    "status": "Durum",
+    "sortOrder": "Sıralama",
+    "showingResults": "{{count}} sonuç gösteriliyor",
+    "noResults": "Kriterlerinize uyan büyü bulunamadı.",
+    "clearFilters": "Filtreleri Temizle"
+  },
+  "AnimeDetail": {
+    "watchNow": "Hemen İzle",
+    "synopsis": "ÖZET",
+    "tabEpisodes": "Bölümler",
+    "tabCharacters": "Karakterler",
+    "tabDiscussion": "Tartışma",
+    "type": "Tip",
+    "studio": "Stüdyo"
+  },
+  "EpisodeList": {
+    "title": "BÖLÜMLER",
+    "total": "Toplam",
+    "season": "Sezon",
+    "filler": "Filler",
+    "noEpisodes": "Bu seçim için bölüm bulunamadı."
+  },
+  "CommentSection": {
+    "title": "KLAN TARTIŞMASI",
+    "placeholder": "Tartışmaya katıl...",
+    "spoilerToggle": "Spoiler?",
+    "spoilerEnabled": "Spoiler Aktif",
+    "post": "Gönder",
+    "loginPrompt": "Stratejileri tartışmak için klana katılın.",
+    "loginButton": "Giriş Yap / Kaydol"
+  },
+  "AuthModal": {
+    "loginTitle": "Portala Eriş",
+    "signupTitle": "Başlatma Ritüeli",
+    "loginSubtitle": "Devam etmek için bilgilerinizi girin.",
+    "signupSubtitle": "Kayıt olmak için detayları doldurun.",
+    "loginWelcome": "Tekrar Hoş Geldin",
+    "signupWelcome": "Kabileye Katıl",
+    "loginWelcomeMsg": "Okült Araştırma Kulübü'ndeki yerin seni bekliyor. Yolculuğuna devam et.",
+    "signupWelcomeMsg": "Kutsal teçhizatını uyandır ve iblisler arasındaki yerini al.",
+    "codename": "Kod Adı",
+    "email": "E-posta Adresi",
+    "password": "Şifre",
+    "forgotPassword": "Hafızanı mı kaybettin?",
+    "loginButton": "Gücü Uyandır",
+    "signupButton": "Şimdi Katıl",
+    "continueWith": "veya şununla devam et",
+    "google": "Google",
+    "loginPrompt": "Zaten uyandın mı?",
+    "signupPrompt": "Henüz bir kabilen yok mu?",
+    "login": "Giriş Yap",
+    "signup": "Kaydol"
+  },
+  "VideoPlayer": {
+    "back": "Animeye Geri Dön",
+    "episodes": "BÖLÜMLER",
+    "total": "Toplam",
+    "searchEpisode": "Bölüm ara...",
+    "switchServer": "Sunucu Değiştir:",
+    "quality": "Kalite",
+    "auto": "Otomatik"
+  },
+  "Profile": {
+    "trainingGrounds": "Antrenman Sahası",
+    "description": "XP kazanmak ve Evil Pieces rütbelerinde yükselmek için anime izle.",
+    "gainXp": "{{amount}} XP Kazan (Demo)",
+    "episodesWatched": "İzlenen Bölümler",
+    "totalWatchTime": "Toplam İzleme Süresi",
+    "hours": "Saat",
+    "globalRank": "Global Sıralama",
+    "history": "Geçmiş",
+    "noHistory": "Henüz geçmiş yok. XP kazanmak için izlemeye başla!",
+    "settings": "Hesap Ayarları",
+    "myList": "İzleme Listem",
+    "myListSubtitle": "Diyarınızda {{count}} başlık var",
+    "myFavorites": "Favorilerim",
+    "myFavoritesSubtitle": "Kalbinizde özel yeri olanlar"
+  },
+  "MyList": {
+    "title": "İzleme Listem",
+    "subtitle": "Fethetmeyi planladığınız tüm seriler.",
+    "emptyTitle": "Grimoire'ınız Çok Hafif",
+    "emptyMessage": "İzleme listeniz boş. Takip etmek için katalogdan seriler ekleyin.",
+    "browseButton": "Kataloğa Gözat"
+  },
+  "Favorites": {
+    "title": "Favorilerim",
+    "subtitle": "Kalbinizde özel bir yer edinmiş animeler.",
+    "emptyTitle": "Henüz Favori Yok",
+    "emptyMessage": "Detay sayfasındaki kalp ikonuna tıklayarak animeleri favori olarak işaretleyin."
+  },
+  "SettingsPage": {
+    "title": "Hesap Ayarları",
+    "subtitle": "Profilinizi, avatarınızı ve diğer kişisel bilgilerinizi yönetin.",
+    "chooseAvatar": "Avatarını Seç",
+    "profileInfo": "Profil Bilgileri",
+    "displayName": "Görünen Ad",
+    "email": "E-posta Adresi (Değiştirilemez)",
+    "saveButton": "Değişiklikleri Kaydet",
+    "saving": "Kaydediliyor..."
+  },
+  "MobileNav": {
+    "home": "Ana Sayfa",
+    "browse": "Gözat",
+    "list": "Listem",
+    "profile": "Profil"
+  },
+  "Interactions": {
+    "addToList": "Listeye Ekle",
+    "added": "Eklendi",
+    "share": "Animeyi Paylaş",
+    "loginRequired": "Giriş yapmalısınız",
+    "watchlistAddSuccess": "İzleme Listesine Eklendi",
+    "watchlistRemoveSuccess": "İzleme Listesinden Kaldırıldı"
+  },
+  "Preloader": {
+    "systemLoading": "Sistem Yükleniyor"
+  },
+  "CommandMenu": {
+    "placeholder": "Anime, karakter veya komut ara...",
+    "noResults": "Grimoire'da sonuç bulunamadı.",
+    "quickActions": "Hızlı Eylemler",
+    "goHome": "Ana Sayfaya Git",
+    "goProfile": "Profile Git",
+    "browseCatalog": "Kataloğa Gözat",
+    "randomAnime": "Beni Şaşırt (Rastgele Anime)",
+    "animeDatabase": "Anime Veritabanı",
+    "settings": "Ayarlar",
+    "theme": "Tema: Koyu (Varsayılan)"
+  },
+  "DeleteAlert": {
+    "title": "Silmeyi Onayla",
+    "subtitle": "Bu işlem geri alınamaz.",
+    "message": "\"{{title}}\" girdisini grimoire'dan silmek istediğinizden emin misiniz?",
+    "cancel": "İptal",
+    "confirm": "Kalıcı Olarak Sil"
+  },
+  "LevelUpToast": {
+    "promotedTo": "TERFİ EDİLDİ"
+  },
+  "Footer": {
+    "tagline": "Yıkımın zarafetinden ilham alan premium bir yayın deneyimi. Gücünü serbest bırak.",
+    "terms": "Koşullar",
+    "privacy": "Gizlilik",
+    "contact": "İletişim"
+  },
+  "Admin": {
+    "mainMenu": "Ana Menü",
+    "dashboard": "Gösterge Paneli",
+    "animeManagement": "Anime Yönetimi",
+    "heroSlides": "Hero Slaytları",
+    "autoImport": "Otomatik İçe Aktar",
+    "users": "Kullanıcılar",
+    "reports": "Raporlar",
+    "system": "Sistem",
+    "systemHealth": "Sistem Sağlığı",
+    "settings": "Ayarlar",
+    "liveSite": "Canlı Site",
+    "controlCenter": "Kontrol Merkezi",
+    "userManagement": "Kullanıcı Yönetimi",
+    "autoImportTitle": "Otomatik İçe Aktar",
+    "reportsTitle": "Gelen Raporlar",
+    "systemHealthTitle": "Sistem Sağlığı",
+    "settingsTitle": "Sistem Yapılandırması",
+    "totalUsers": "Toplam Kullanıcı",
+    "activeStreams": "Aktif Yayınlar",
+    "totalAnime": "Toplam Anime",
+    "serverLoad": "Sunucu Yükü",
+    "trafficOverview": "Trafik Genel Bakış",
+    "searchTitles": "Başlık ara...",
+    "addNewAnime": "Yeni Anime Ekle",
+    "poster": "Poster",
+    "title": "Başlık & Detaylar",
+    "status": "Durum",
+    "episodes": "Bölümler",
+    "rating": "Puan",
+    "actions": "Eylemler",
+    "editUser": "Kullanıcıyı Düzenle",
+    "banUser": "Kullanıcıyı Yasakla",
+    "unbanUser": "Yasağı Kaldır",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "allRoles": "Tümü",
+    "allStatuses": "Tümü"
+  }
+}

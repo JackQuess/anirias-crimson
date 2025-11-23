@@ -1,0 +1,209 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "schedule": "Schedule",
+    "myList": "My List"
+  },
+  "Hero": {
+    "watch": "Watch Now",
+    "featured": "FEATURED",
+    "upNext": "Up Next"
+  },
+  "RecentEpisodes": {
+    "title": "JUST UPDATED"
+  },
+  "TrendingSidebar": {
+    "title": "TOP 10 VIEWED",
+    "weekly": "Weekly",
+    "leaderboard": "VIEW FULL LEADERBOARD"
+  },
+  "Catalog": {
+    "title": "GRIMOIRE CATALOG",
+    "searchPlaceholder": "Search by title...",
+    "genre": "Genre",
+    "status": "Status",
+    "sortOrder": "Sort Order",
+    "showingResults": "Showing {{count}} results",
+    "noResults": "No spells found in the grimoire matching your criteria.",
+    "clearFilters": "Clear Filters"
+  },
+  "AnimeDetail": {
+    "watchNow": "Watch Now",
+    "synopsis": "SYNOPSIS",
+    "tabEpisodes": "Episodes",
+    "tabCharacters": "Characters",
+    "tabDiscussion": "Discussion",
+    "type": "Type",
+    "studio": "Studio"
+  },
+  "EpisodeList": {
+    "title": "EPISODES",
+    "total": "Total",
+    "season": "Season",
+    "filler": "Filler",
+    "noEpisodes": "No episodes found for this selection."
+  },
+  "CommentSection": {
+    "title": "CLAN DISCUSSION",
+    "placeholder": "Join the discussion...",
+    "spoilerToggle": "Spoiler?",
+    "spoilerEnabled": "Spoiler Enabled",
+    "post": "Post",
+    "loginPrompt": "Join the peerage to discuss strategies.",
+    "loginButton": "Login / Sign Up"
+  },
+  "AuthModal": {
+    "loginTitle": "Access Portal",
+    "signupTitle": "Initiation Ritual",
+    "loginSubtitle": "Enter your credentials to proceed.",
+    "signupSubtitle": "Fill in the details to register.",
+    "loginWelcome": "Welcome Back",
+    "signupWelcome": "Join the Peerage",
+    "loginWelcomeMsg": "Your seat at the Occult Research Club awaits. Continue your journey.",
+    "signupWelcomeMsg": "Awaken your sacred gear and claim your place among the devils.",
+    "codename": "Code Name",
+    "email": "Email Address",
+    "password": "Password",
+    "forgotPassword": "Lost your memory?",
+    "loginButton": "Awaken Power",
+    "signupButton": "Join Now",
+    "continueWith": "Or continue with",
+    "google": "Google",
+    "loginPrompt": "Already awakened?",
+    "signupPrompt": "Don't have a peerage yet?",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "VideoPlayer": {
+    "back": "Back to Anime",
+    "episodes": "EPISODES",
+    "total": "Total",
+    "searchEpisode": "Search episode...",
+    "switchServer": "Switch Server:",
+    "quality": "Quality",
+    "auto": "Auto"
+  },
+  "Profile": {
+    "trainingGrounds": "Training Grounds",
+    "description": "Watch anime to gain XP and rise through the ranks of the Evil Pieces.",
+    "gainXp": "Gain {{amount}} XP (Demo)",
+    "episodesWatched": "Episodes Watched",
+    "totalWatchTime": "Total Watch Time",
+    "hours": "Hours",
+    "globalRank": "Global Rank",
+    "history": "History",
+    "noHistory": "No history yet. Start watching to earn XP!",
+    "settings": "Account Settings",
+    "myList": "My Watchlist",
+    "myListSubtitle": "{{count}} titles in your realm",
+    "myFavorites": "My Favorites",
+    "myFavoritesSubtitle": "The ones you hold dear"
+  },
+  "MyList": {
+    "title": "My Watchlist",
+    "subtitle": "All the series you plan to conquer.",
+    "emptyTitle": "Your Grimoire is Light",
+    "emptyMessage": "Your watchlist is empty. Add series from the catalog to keep track of them here.",
+    "browseButton": "Browse Catalog"
+  },
+  "Favorites": {
+    "title": "My Favorites",
+    "subtitle": "Anime that have earned a special place in your heart.",
+    "emptyTitle": "No Favorites Yet",
+    "emptyMessage": "Mark anime as a favorite by clicking the heart icon on their detail page."
+  },
+  "SettingsPage": {
+    "title": "Account Settings",
+    "subtitle": "Manage your profile, avatar, and other personal information.",
+    "chooseAvatar": "Choose Your Avatar",
+    "profileInfo": "Profile Information",
+    "displayName": "Display Name",
+    "email": "Email Address (Cannot be changed)",
+    "saveButton": "Save Changes",
+    "saving": "Saving..."
+  },
+  "MobileNav": {
+    "home": "Home",
+    "browse": "Browse",
+    "list": "List",
+    "profile": "Profile"
+  },
+  "Interactions": {
+    "addToList": "Add to List",
+    "added": "Added",
+    "share": "Share Anime",
+    "loginRequired": "Login is required",
+    "watchlistAddSuccess": "Added to Watchlist",
+    "watchlistRemoveSuccess": "Removed from Watchlist"
+  },
+  "Preloader": {
+    "systemLoading": "System Loading"
+  },
+  "CommandMenu": {
+    "placeholder": "Search anime, characters, or commands...",
+    "noResults": "No results found in the grimoire.",
+    "quickActions": "Quick Actions",
+    "goHome": "Go to Home",
+    "goProfile": "Go to Profile",
+    "browseCatalog": "Browse Catalog",
+    "randomAnime": "Surprise Me (Random Anime)",
+    "animeDatabase": "Anime Database",
+    "settings": "Settings",
+    "theme": "Theme: Dark (Default)"
+  },
+  "DeleteAlert": {
+    "title": "Confirm Deletion",
+    "subtitle": "This action cannot be undone.",
+    "message": "Are you sure you want to delete \"{{title}}\" from the grimoire?",
+    "cancel": "Cancel",
+    "confirm": "Delete Permanently"
+  },
+  "LevelUpToast": {
+    "promotedTo": "PROMOTED TO"
+  },
+  "Footer": {
+    "tagline": "A premium streaming experience inspired by the elegance of destruction. Unleash your power.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  },
+  "Admin": {
+    "mainMenu": "Main Menu",
+    "dashboard": "Dashboard",
+    "animeManagement": "Anime Management",
+    "heroSlides": "Hero Slides",
+    "autoImport": "Auto-Import",
+    "users": "Users",
+    "reports": "Reports",
+    "system": "System",
+    "systemHealth": "System Health",
+    "settings": "Settings",
+    "liveSite": "Live Site",
+    "controlCenter": "Control Center",
+    "userManagement": "User Management",
+    "autoImportTitle": "Auto Import",
+    "reportsTitle": "Incoming Reports",
+    "systemHealthTitle": "System Health",
+    "settingsTitle": "System Configuration",
+    "totalUsers": "Total Users",
+    "activeStreams": "Active Streams",
+    "totalAnime": "Total Anime",
+    "serverLoad": "Server Load",
+    "trafficOverview": "Traffic Overview",
+    "searchTitles": "Search titles...",
+    "addNewAnime": "Add New Anime",
+    "poster": "Poster",
+    "title": "Title & Details",
+    "status": "Status",
+    "episodes": "Episodes",
+    "rating": "Rating",
+    "actions": "Actions",
+    "editUser": "Edit User",
+    "banUser": "Ban User",
+    "unbanUser": "Unban User",
+    "saveChanges": "Save Changes",
+    "allRoles": "All",
+    "allStatuses": "All"
+  }
+}
